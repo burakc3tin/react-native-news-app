@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "burakctnnews",
+    "name": "En Ekspress Haber",
     "slug": "burakctnnews",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.burakc3tin.burakctnnews"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e504c15f-325f-4ba8-9835-7381592e35df"
+      }
     }
   }
 }
